@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   min-width: 300px;
   max-width: 400px;
