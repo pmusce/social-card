@@ -1,70 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
 
 .App {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-}
-
-.card {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  min-width: 300px;
-  max-width: 400px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color: #000000;
-  overflow: hidden;
-  box-shadow: 2px 2px 2px #ddd;
-  margin: 20px 5px;
-}
-
-.card .card-body {
-  padding: 1em 1.5em;
-}
-
-.card .card-body h4 {
-  margin: 0;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.card .card-body p {
-  margin: 0;
-}
-
-.card .card-header {
-  position: relative;
-  object-fit: cover;
-  width: 100%;
-  height: 250px;
-}
-
-.card > *:not(:last-child) {
-  border-bottom: 1px solid #cccccc;
-}
-
-.card > .card-footer {
-  display: flex;
-}
-
-.card-footer .card-footer-item {
-  padding: 1em;
-  text-align: center;
-  flex: 1 100%;
-  cursor: pointer;
-  user-select: none;
-}
-
-.card-footer .card-footer-item:hover {
-  background-color: #eee;
-}
-
-.card-footer .card-footer-item:active {
-  background-color: #ddd;
-}
-
-.card-footer > .card-footer-item:not(:last-child) {
-  border-right: 1px solid #cccccc;
+  align-items: flex-start;
 }
